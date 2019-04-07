@@ -1,0 +1,47 @@
+{
+    "name": "vscode0405",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prd": "cross-env NODE_ENV=production webpack --config webpack.config.js ",
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/register": "^7.0.0-rc.3",
+        "autoprefixer": "^9.5.0",
+        "babel-core": "^6.26.3",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-plugin-syntax-jsx": "^6.18.0",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-runtime": "^6.26.0",
+        "cross-env": "^5.2.0",
+        "css-loader": "^2.1.1",
+        "file-loader": "^3.0.1",
+        "html-webpack-plugin": "^3.2.0",
+        "node-pre-gyp": "^0.12.0",
+        "postcss-loader": "^3.0.0",
+        "readable-stream": "^3.3.0",
+        "style-loader": "^0.23.1",
+        "url-loader": "^1.1.2",
+        "vue": "^2.6.10",
+        "vue-loader": "^14.2.2",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.0.0",
+        "webpack-dev-server": "^3.2.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/preset-env": "^7.4.3",
+        "babel-loader": "^8.0.5",
+        "postcss-import": "^12.0.1",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "webpack-cli": "^3.3.0"
+    }
+}
